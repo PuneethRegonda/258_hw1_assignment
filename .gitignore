@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.egg-info/
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+cmpe258/
+
+# VSCode, PyCharm, etc.
+.vscode/
+.idea/
+
+# HuggingFace transformers / Trainer output
+output/
+results/
+logs/
+*.log
+
+# Model files
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Dataset downloads/cache
+data/
+*.zip
+*.tar.gz
+*.tar
+*.npy
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Backup or temp files
+*.bak
+*.tmp
+*.swp
+~$*
+
+# Environment/config files (optional if sensitive)
+.env
+.env.*
+
+# Pip freeze or installation leftovers
+pip-selfcheck.json
+
