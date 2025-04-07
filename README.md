@@ -50,9 +50,6 @@ This assignment implements a complete deep learning pipeline using the MedNIST d
 
 ![Results](results.jpg)
 
----
-
-
 
 ---
 
