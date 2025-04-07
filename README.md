@@ -1,6 +1,6 @@
 # CMPE258 - Deep Learning Assignment: MedNIST Classification + Knowledge Distillation
 
-## 🧠 Project Overview
+##  Project Overview
 
 This assignment implements a complete deep learning pipeline using the MedNIST dataset, including:
 1. A custom CNN model trained with various training options.
@@ -11,13 +11,13 @@ This assignment implements a complete deep learning pipeline using the MedNIST d
 
 ---
 
-## 📁 Dataset
+##  Dataset
 - **Source**: MedNIST (https://github.com/Project-MONAI/tutorials/blob/main/2d_classification/)
 - **Preprocessing**: Resized to 64x64, grayscale converted, normalized.
 
 ---
 
-## 🧰 Models
+##  Models
 ### Custom CNN
 - 2 Conv layers + ReLU + MaxPool
 - 1 Fully Connected layer
@@ -29,34 +29,34 @@ This assignment implements a complete deep learning pipeline using the MedNIST d
 
 ---
 
-## 🧪 Experiments
+##  Experiments
 - **Training configs tried**: augmentations, optimizer/scheduler tweaks
 - **Evaluation**: Accuracy and latency using inference timing
 - **Visualization**: Plots for accuracy and timing, plus prediction samples
 
 ---
 
-## 🧠 Knowledge Distillation (Excellent Grade)
+##  Knowledge Distillation (Excellent Grade)
 - Used HuggingFace `Trainer` with custom `DistillationTrainer`
 - Injected grayscale features to compare teacher-student logits
 - Compared results post-training
 
 ---
 
-## 📊 Results
-- ✅ Accuracy on test set reported
-- ✅ Inference time measured
-- ✅ Random 10-image predictions shown with matplotlib
+##  Results
+-  Accuracy on test set reported
+-  Inference time measured
+-  Random 10-image predictions shown with matplotlib
 
 ![Results](results.jpg)
 
 
 ---
 
-## 📎 Submission
-- 📘 Report: See `CMPE258_HW_Report.docx`
-- 📄 Notebook: See `hw_assignment.pdf`
-- 🗂️ Code: See `assignment.py`, `distillation.py`
+##  Submission
+-  Report: See `CMPE258_HW_Report.docx`
+-  Notebook: See `hw_assignment.pdf`
+-  Code: See `assignment.py`, `distillation.py`
 
 ---
 
