@@ -48,18 +48,11 @@ This assignment implements a complete deep learning pipeline using the MedNIST d
 - ✅ Inference time measured
 - ✅ Random 10-image predictions shown with matplotlib
 
+![Results](results.jpg)
+
 ---
 
-## 🚀 Running the Code
-```bash
-# Make sure MedNIST is in ./data/MedNIST
-python assignment.py
-```
 
-To run distillation:
-```bash
-python distillation.py
-```
 
 ---
 
